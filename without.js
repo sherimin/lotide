@@ -28,22 +28,10 @@ const without = (array1,array2) => {
         }
       }
     }
-
-/*    for (var i = 0; i < array1.length; i++) {
-        for (var j = 0; j < array2.length; j++)
-        //compare each item in array1 and array2
-        if (array1 [i] === array2 [j]) {
-          //if any item in array2 is the same as an item in array1, then it needs to be removed
-          break;
-        } else {
-          newArray.push(array1[i]);
-          break;
-        }
-    }*/
     console.log(newArray);
 }
 
-
+//Test code below
 
 without([1, 2, 3], [1]) // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
