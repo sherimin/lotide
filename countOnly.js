@@ -23,7 +23,6 @@ const countOnly = (allItems, itemsToCount) => {
                 results[item] += 1;
             } else {
                 results[item] = 1;
-                //why results[item] equals to 1 here?
             }
         }
 
