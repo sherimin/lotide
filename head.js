@@ -1,15 +1,7 @@
-const assertEqual = function(actual, expected) {
-    if (actual === expected) {
-        console.log(`✅✅✅ Assertion Passed: ${actual}  === ${expected}`);
-    } else {
-        console.log(`🛑🛑🛑 Assertion Failed:  ${actual}  !== ${expected}`);
-    }
-};
-
+//The head function takes in an array and returns the first element
 const head = function (input) {
-    let output = input[0];
-    return output;
+    return input[0];
 };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = head;
+

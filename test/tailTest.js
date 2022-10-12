@@ -1,4 +1,4 @@
-const tail = require(`../tail`)
+const tail = require('../tail')
 
 
 
