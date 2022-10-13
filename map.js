@@ -28,3 +28,5 @@ const assertArraysEqual = (array1,array2) => {
 
 assertArraysEqual(results1,[ 'g', 'c', 't', 'm', 's' ]);
 
+module.exports = map;
+

@@ -48,4 +48,6 @@ assertArraysEqual(testCode["e"],[1])
 assertArraysEqual(testCode["l"], [2, 3])
 assertArraysEqual(testCode["o"], [4])
 
+module.exports = letterPositions;
+
 
