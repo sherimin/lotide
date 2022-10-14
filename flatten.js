@@ -10,7 +10,6 @@ const flatten = (array) => {
         }
     }
     return newArray;
-
 }
 
 module.exports = flatten;
