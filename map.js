@@ -14,19 +14,19 @@ const map = function (array,callback) {
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
-//assertArrayEquals for testing results
+//Test code below
 
-const assertArraysEqual = (array1,array2) => {
-    for (let i = 0; i < array1.length; i++) {
-        if (array1[i] !== array2[i] || array1.length !== array2.length) {
-            console.log(`🛑🛑🛑 Assertion Failed:  ${array1}  !== ${array2}`);
-            break;
-        } 
-    }
-    console.log(`✅✅✅ Assertion Passed: ${array1}  === ${array2}`);;
-};
+// const assertArraysEqual = (array1,array2) => {
+//     for (let i = 0; i < array1.length; i++) {
+//         if (array1[i] !== array2[i] || array1.length !== array2.length) {
+//             console.log(`🛑🛑🛑 Assertion Failed:  ${array1}  !== ${array2}`);
+//             break;
+//         } 
+//     }
+//     console.log(`✅✅✅ Assertion Passed: ${array1}  === ${array2}`);;
+// };
 
-assertArraysEqual(results1,[ 'g', 'c', 't', 'm', 's' ]);
+// assertArraysEqual(results1,[ 'g', 'c', 't', 'm', 's' ]);
 
 module.exports = map;
 

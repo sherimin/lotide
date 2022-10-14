@@ -1,12 +1,4 @@
-const eqArrays = (array1,array2) => {
-    for (let i = 0; i < array1.length; i++) {
-        if (array1[i] !== array2[i] || array1.length !== array2.length) {
-            return "Assertion Failed";
-            break;
-        } 
-    }
-    return "Assertion Passed";
-};
+
 
 const without = (array1,array2) => {
     let newArray = [];
@@ -33,7 +25,9 @@ const without = (array1,array2) => {
 
 //Test code below
 
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+// without([1, 2, 3], [1]) // => [2, 3]
+// without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+
 
 module.exports = without;
+
