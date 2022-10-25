@@ -1,6 +1,6 @@
-const assertEqual = require(`../assertEqual`)
+const assertEqual = require(`../assertEqual`);
 
-const countLetters = require('../countLetters')
+const countLetters = require('../countLetters');
 
 
 //test code below
